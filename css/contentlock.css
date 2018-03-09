@@ -1,0 +1,38 @@
+.contentlock {
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.contentlock h2 {
+    font-weight: 400;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 4px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.contentlock h2 .title {
+    margin-left: 4px;
+}
+
+.contentlock h2 .fas {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.contentlock h2 .fa-lock { color: #c00; }
+.contentlock h2 .fa-lock-open { color: #0a0; }
+
+.contentlock .content {
+    padding-bottom: 10px;
+}
+
+.contentlock.locked h3 {
+    font-size: 24px;
+    color: #444;
+    font-weight: 300;
+}
